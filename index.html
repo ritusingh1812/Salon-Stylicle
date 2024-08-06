@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <title>Salon</title>
+  </head>
+  <body>
+    <header style="z-index: 9">
+      <div class="logo">
+        <img src="./assets/logo.png" alt="Logo" />
+      </div>
+      <div class="nav-toggle" id="nav-toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/about.html">About us</a></li>
+          <li><a href="/contact.html">Contact us</a></li>
+          <li><a href="#">EN</a></li>
+          <li>
+            <button class="button lo">Login</button>
+            <button class="button su">Signup</button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- top-cover -->
+    <div class="home-cover" style="position: relative">
+      <img
+        src="./assets/cover.png"
+        class="cover-img-laptop"
+        style="max-width: 100%; object-fit: cover"
+        hidden
+      />
+      <img
+        src="./assets/cover-2.png"
+        class="cover-img-mobile"
+        style="max-width: 100%; width: 100%"
+        hidden
+      />
+      <img
+        src="./assets/cover-2.png"
+        class="cover-img-mobile-2"
+        style="max-width: 100%; width: 100%"
+        hidden
+      />
+      <div
+        class="home-inner-text"
+        style="position: absolute; color: #f7e5c1; padding: 10px"
+      >
+        <p>
+          <img src="./assets/Vector (1).png" />
+          <span style="padding: 5px; margin: 5px"
+            >Hair Salon, Masseuse, Beauty Salon</span
+          >
+        </p>
+        <p class="big-text">Find a service <br />close to you</p>
+        <p style="margin-top: 15px">
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form.
+        </p>
+        <div class="entry-search" style="color: #ba7894; font-weight: 700">
+          <div>
+            <p>Service Name</p>
+            <input
+              class="w-input"
+              placeholder="Book Your Services..."
+              type="text"
+            />
+          </div>
+          <div>
+            <p>Address</p>
+            <input class="w-input" placeholder="Where" type="text" />
+          </div>
+          <button class="button-src">search</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- slider -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="./assets/sl1.png" /></div>
+        <div class="swiper-slide"><img src="./assets/sl2.png" /></div>
+        <div class="swiper-slide"><img src="./assets/sl3.png" /></div>
+        <div class="swiper-slide"><img src="./assets/sl4.png" /></div>
+        <div class="swiper-slide"><img src="./assets/sl5.png" /></div>
+        <div class="swiper-slide"><img src="./assets/sl6.png" /></div>
+        <div class="swiper-slide"><img src="./assets/sl3.png" /></div>
+        <div class="swiper-slide"><img src="./assets/sl2.png" /></div>
+        <div class="swiper-slide"><img src="./assets/sl5.png" /></div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+      <!-- <div class="swiper-pagination" style="margin-top: 30px"></div> -->
+    </div>
+
+    <!-- second section -->
+    <div class="outer-second-section">
+      <p class="head">
+        We are Experienced in making you<br />
+        very Beautiful
+      </p>
+      <p style="font-size: small">
+        Lorem ipsum dolor sit amet consectetur.Eu quis enim tempor et proin
+        neque.
+      </p>
+      <div class="flex-container-imgs">
+        <img src="/assets/un1.png" />
+        <img src="/assets/un2.png" />
+        <img src="/assets/un3.png" />
+      </div>
+    </div>
+
+    <!-- third section -->
+    <div class="recommended-section">
+      <h2 style="color: #ba7894">Our Services</h2>
+      <h1>Recommended</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur. Eu quis enim tempor et proin
+        neque.
+      </p>
+      <div class="cards">
+        <div class="card">
+          <img src="/assets/image1.png" alt="Service 1" />
+          <div class="card-content">
+            <div class="rating">
+              <span class="star">★</span> 4.5
+              <span class="reviews">104 reviews</span>
+            </div>
+            <h3>Salon Name</h3>
+            <p class="location">
+              📍 Brookpark Ext, 27085, North Olmsted, 44070
+            </p>
+            <button>Book Now</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/assets/image2.png" alt="Service 2" />
+          <div class="card-content">
+            <div class="rating">
+              <span class="star">★</span> 4.5
+              <span class="reviews">104 reviews</span>
+            </div>
+            <h3>Salon Name</h3>
+            <p class="location">📍 2267 Main st, Fort Myers, 33901</p>
+            <button>Book Now</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/assets/image3.png" alt="Service 3" />
+          <div class="card-content">
+            <div class="rating">
+              <span class="star">★</span> 4.5
+              <span class="reviews">104 reviews</span>
+            </div>
+            <h3>Deluxe room</h3>
+            <p class="location">📍 2267 Main st, Fort Myers, 33901</p>
+            <button>Book Now</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/assets/image4.png" alt="Service 4" />
+          <div class="card-content">
+            <div class="rating">
+              <span class="star">★</span> 4.5
+              <span class="reviews">104 reviews</span>
+            </div>
+            <h3>Meeting room</h3>
+            <p class="location">📍 2267 Main st, Fort Myers, 33901</p>
+            <button>Book Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- fourth /testimonials-->
+    <div class="testimonials">
+      <h6 style="color: #ba7894">TESTIMONIALS</h6>
+      <h2>What our customers say</h2>
+      <div class="inner-testimonials">
+        <img src="./assets/Contents.png" class="img-test" />
+        <div class="testimonials-text">
+          <blockquote>
+            <p>
+              Leslie Alexander<br />
+              Moncton,Canada
+            </p>
+
+            <h3>Neque porro quisquam est qui dolum</h3>
+            <p>
+              “ It is a long established fact that a reader will be tracked
+              distracted by the readable content of a page is when looking at
+              its layout. The point of using Lorem of distribution it look like
+              readable English “
+            </p>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+
+    <!-- newsletter  -->
+    <div class="container">
+      <div class="newsletter-section">
+        <div class="image-container">
+          <img src="/assets/image4.png" alt="Hairdressing Scene" />
+        </div>
+        <div class="content-container">
+          <h2>Subscribe to newsletter</h2>
+          <p>
+            Sign up for our newsletter to stay up-to-date on the latest
+            promotions, discounts, and new features releases.
+          </p>
+          <div class="input-group">
+            <span class="icon">&#9993;</span>
+            <input type="email" placeholder="Enter your mail" id="email" />
+            <button>Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer>
+      <div class="footer-top">
+        <div class="footer-logo">
+          <img src="/assets/sevicelogo.png" alt="ServiceMarket Logo" />
+        </div>
+        <div class="footer-social">
+          <a href="#"><img src="/assets/facebook.png" alt="Facebook" /></a>
+          <a href="#"><img src="/assets/twitter.png" alt="Twitter" /></a>
+          <a href="#"><img src="/assets/linkedin.png" alt="LinkedIn" /></a>
+          <a href="#"><img src="/assets/instagram.png" alt="Instagram" /></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-column">
+          <h3>Explore</h3>
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/about.html">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Utility Pages</h3>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Keep in Touch</h3>
+          <p>Address: Mariendalsvej 50D 2 2000 Frederiksberg.</p>
+          <p>
+            Mail:
+            <a href="mailto:support@servicemarket.com"
+              >support@servicemarket.com</a
+            >
+          </p>
+          <p>Phone: (+22) 123 - 4567 - 900</p>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <p>&copy; 2023 ServiceMarket.dk All rights reserved.</p>
+      </div>
+    </footer>
+    <!--  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="./script.js"></script>
+
+    <script>
+      // document
+      //   .getElementById("nav-toggle")
+      //   .addEventListener("click", function () {
+      //     const nav = document.querySelector("header nav");
+      //     nav.classList.toggle("active");
+      //   });
+
+      document.addEventListener("DOMContentLoaded", function () {
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 5,
+          spaceBetween: 30,
+          freeMode: true,
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          breakpoints: {
+            // when window width is >= 320px
+            300: {
+              slidesPerView: 1,
+              spaceBetween: 10,
+            },
+            // when window width is >= 480px
+            480: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            // when window width is >= 640px
+            640: {
+              slidesPerView: 3,
+              spaceBetween: 30,
+            },
+            // when window width is >= 1024px
+            1024: {
+              slidesPerView: 5,
+              spaceBetween: 30,
+            },
+          },
+        });
+      });
+    </script>
+  </body>
+</html>
