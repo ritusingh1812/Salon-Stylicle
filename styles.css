@@ -93,7 +93,6 @@ header nav ul li a.active {
   }
 
 .entry-search{
-  /* width: 700px; */
   background-color: #fff;
   border-radius: 30px;
   margin-top: 10px;
@@ -213,7 +212,7 @@ gap:10px;
   border-radius: 10px;
   overflow: hidden;
   margin: 20px;
-  width: 250px;
+ width:250px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
@@ -546,7 +545,11 @@ justify-content: center;
   }
 }
 
-
+@media (min-width: 700px) {
+.entry-search{
+  width: 600px;
+}
+}
 
 /* about page */
 
@@ -981,14 +984,25 @@ header{
   .img-test{
     width: 200px;
   }
+  .card{
+   justify-content: center;
+  }
 
   .newsletter-section img{
     width: 300px;
     margin: 10px;
     
   }
+  .content-container{
+    width: 90%;
+  }
+  .content-container{
+    width: 90%;
+  
+  }
   .input-group{
-    width: 330px;
+ 
+   
     margin-top: 20px;
   }
 
@@ -1044,8 +1058,13 @@ header{
     
     }
 
-    
-    
+   
+    .cards{
+      justify-content: space-around;
+    }
+    .recommended-section{
+      padding: 1px;
+    }
 
 }
 
